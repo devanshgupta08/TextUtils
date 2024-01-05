@@ -1,10 +1,9 @@
-// devansh brancht 
+// Affecting origin devansh 
 import React, { useState,useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar.jsx";
