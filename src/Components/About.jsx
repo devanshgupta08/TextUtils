@@ -1,4 +1,4 @@
-import React, { startTransition } from 'react'
+import React from 'react'
 
 export default function About() {
   return (
@@ -39,12 +39,11 @@ export default function About() {
               veniam Lorem ipsum dolor sit amet. amet. labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum
               dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet.
             </p>
-            <a
-              href="#"
+            <button
               className="px-4 py-2 text-gray-100 bg-blue-500 rounded dark:bg-blue-400 dark:hover:bg-blue-500 hover:bg-blue-600"
             >
               Learn More
-            </a>
+            </button>
           </div>
         </div>
       </div>
